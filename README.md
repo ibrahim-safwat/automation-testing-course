@@ -12,4 +12,4 @@
   3. Execute tests across different platforms and devices using their respective automation tools.
   4. Develop and manage an automation framework from inception to completion.
 
-📄 For more details about my background, please review my CV --> . If you have any suggestions or recommendations, please let me know.
+📄 For more details about my background, please review my CV -->(/.assets/ibrahim_Safwat_CV.pdf). If you have any suggestions or recommendations, please let me know.
