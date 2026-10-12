@@ -1,9 +1,9 @@
-//import java.util.Scanner;
-//
-//public class Assignment1 {
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-/* reciept printer (problem 1) */
+import java.util.Scanner;
+
+public class Assignment1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        /* reciept printer (problem 1) */
 //        System.out.println("please enter your product name: ");
 //        String name = input.nextLine();
 //        System.out.println("please enter your product price: ");
@@ -21,7 +21,7 @@
 //        System.out.println("product name: " + name + "\n" + "product price: " + price + "\n" + "product quantity: " + quantity + "\n"
 //                + "product in stock: " + stock + "\n" + "total price: " + totalprice);
 
-/* Grade System (if/else & switch) */
+        /* Grade System (if/else & switch) */
 //        System.out.println("please enter the grade: ");
 //        int grade = input.nextInt();
 //        if (grade < 0 || grade > 100) {
@@ -56,12 +56,12 @@
 //
 //        }
 
-/* array list and reverse loop*/
+        /* array list and reverse loop*/
 //list
 //        System.out.println("please enter Value: ");
 //      int value = input.nextInt(i);
 
-/* modulus and for loop combined with && */
+        /* modulus and for loop combined with && */
 //        System.out.println("please enter Value: ");
 //        int value = input.nextInt();
 //        int i = 1;
@@ -79,8 +79,8 @@
 //        }
 //        System.out.println(msg);
 
-//    }
-//}
+    }
+}
 
 
 
