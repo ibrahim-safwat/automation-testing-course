@@ -57,8 +57,8 @@ public class Assignment1 {
 //        }
 
         /* array list and reverse loop*/
-list
-        System.out.println("please enter Value: ");
+//list
+//        System.out.println("please enter Value: ");
 //      int value = input.nextInt(i);
 
         /* modulus and for loop combined with && */
