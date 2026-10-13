@@ -63,7 +63,7 @@
 
 
 /* array list and reverse loop*/
-String[] list = {"backpack", "orange T-shirt", "onesie", "fleece jacket", "Bolt T-shirt", "bike light"};
+//String[] list = {"backpack", "orange T-shirt", "onesie", "fleece jacket", "Bolt T-shirt", "bike light"};
 /*for each loop */
 //        for (String product : list) {
 //            Arrays.sort(list);
