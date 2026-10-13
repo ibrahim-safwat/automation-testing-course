@@ -1,8 +1,10 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Assignment1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         /* reciept printer (problem 1) */
 //        System.out.println("please enter your product name: ");
 //        String name = input.nextLine();
@@ -20,6 +22,8 @@ public class Assignment1 {
 //        }
 //        System.out.println("product name: " + name + "\n" + "product price: " + price + "\n" + "product quantity: " + quantity + "\n"
 //                + "product in stock: " + stock + "\n" + "total price: " + totalprice);
+
+
 
         /* Grade System (if/else & switch) */
 //        System.out.println("please enter the grade: ");
@@ -56,10 +60,36 @@ public class Assignment1 {
 //
 //        }
 
+
+
         /* array list and reverse loop*/
-//list
-//        System.out.println("please enter Value: ");
-//      int value = input.nextInt(i);
+        String[] list = {"backpack", "orange T-shirt", "onesie", "fleece jacket", "Bolt T-shirt", "bike light"};
+        /*for each loop */
+//        for (String product : list) {
+//            Arrays.sort(list);
+//            System.out.println(product);
+//        }
+
+        /*normal for loop */
+//        for (int i = 0; i < list.length; i++) {
+//            Arrays.sort(list);
+//        }
+//        System.out.println(Arrays.toString(list));
+
+        /*binary search*/
+//        System.out.println("please enter the desired item: ");
+//        String item = input.next();
+//        Arrays.sort(list);
+//        int search = Arrays.binarySearch(list, item);
+//        System.out.println(search);
+
+        /*reverse for loop*/
+//        int b = 0;
+//        for (int i = list.length; i > 0; i--) {
+//            b = i - 1;
+//            System.out.println(list[b]);
+//        }
+
 
         /* modulus and for loop combined with && */
 //        System.out.println("please enter Value: ");
