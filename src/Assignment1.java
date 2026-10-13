@@ -1,11 +1,11 @@
-import java.util.Scanner;
-import java.util.Arrays;
+//import java.util.Scanner;
+//import java.util.Arrays;
+//
+//public class Assignment1 {
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
 
-public class Assignment1 {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        /* reciept printer (problem 1) */
+/* reciept printer (problem 1) */
 //        System.out.println("please enter your product name: ");
 //        String name = input.nextLine();
 //        System.out.println("please enter your product price: ");
@@ -25,7 +25,7 @@ public class Assignment1 {
 
 
 
-        /* Grade System (if/else & switch) */
+/* Grade System (if/else & switch) */
 //        System.out.println("please enter the grade: ");
 //        int grade = input.nextInt();
 //        if (grade < 0 || grade > 100) {
@@ -62,28 +62,28 @@ public class Assignment1 {
 
 
 
-        /* array list and reverse loop*/
-        String[] list = {"backpack", "orange T-shirt", "onesie", "fleece jacket", "Bolt T-shirt", "bike light"};
-        /*for each loop */
+/* array list and reverse loop*/
+String[] list = {"backpack", "orange T-shirt", "onesie", "fleece jacket", "Bolt T-shirt", "bike light"};
+/*for each loop */
 //        for (String product : list) {
 //            Arrays.sort(list);
 //            System.out.println(product);
 //        }
 
-        /*normal for loop */
+/*normal for loop */
 //        for (int i = 0; i < list.length; i++) {
 //            Arrays.sort(list);
 //        }
 //        System.out.println(Arrays.toString(list));
 
-        /*binary search*/
+/*binary search*/
 //        System.out.println("please enter the desired item: ");
 //        String item = input.next();
 //        Arrays.sort(list);
 //        int search = Arrays.binarySearch(list, item);
 //        System.out.println(search);
 
-        /*reverse for loop*/
+/*reverse for loop*/
 //        int b = 0;
 //        for (int i = list.length; i > 0; i--) {
 //            b = i - 1;
@@ -91,7 +91,7 @@ public class Assignment1 {
 //        }
 
 
-        /* modulus and for loop combined with && */
+/* modulus and for loop combined with && */
 //        System.out.println("please enter Value: ");
 //        int value = input.nextInt();
 //        int i = 1;
@@ -109,8 +109,8 @@ public class Assignment1 {
 //        }
 //        System.out.println(msg);
 
-    }
-}
+//    }
+//}
 
 
 
