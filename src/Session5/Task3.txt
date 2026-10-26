@@ -1,0 +1,31 @@
+10 Xpath expressions:
+
+attribute:
+//img[@data-test='inventory-item-sauce-labs-backpack-img']
+
+by text:
+//input[text()='submit']
+
+by partial text:
+//div[contains(text(),'superhero')]
+
+parent axis:
+***grabs the href of the first product's title
+//div[@class='inventory_item_name ']/parent::a
+
+//img[@class='inventory_item_img']/ancestor::a
+
+sibling axis:
+//div[@class='inventory_item_description']/preceding-sibling::div
+
+//a[@id='item_4_title_link']/following-sibling::div
+
+descendant axis:
+***grabs the next tag (the first product)
+//a[@id='item_3_title_link']/descendant::div
+
+position (2nd product):
+(//div[@class='inventory_item'])[2]
+
+combination of two conditions:
+//button[@name='add-to-cart-sauce-labs-bolt-t-shirt' and @data-test='add-to-cart-sauce-labs-bolt-t-shirt']

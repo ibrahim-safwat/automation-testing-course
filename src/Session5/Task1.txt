@@ -1,0 +1,68 @@
+find and document locators for:
+
+username input:
+Id:By.id("user-name")
+Css:By.cssSelector("input[id='user-name']")
+Xpath:By.xpath("//input[@id='user-name']")
+
+password input:
+Id:By.id("password")
+Css:By.cssSelector("input[id='password']")
+Xpath:By.xpath("//input[@id='password']")
+
+login button:
+Id:By.id("login-button")
+Css:By.cssSelector("input[class='submit-button btn_action']")
+Xpath:By.xpath("//input[@id='login-button']")
+
+error message:
+Css:By.cssSelector("h3[data-test='error']")
+Xpath:By.xpath("//h3[@data-test='error']")
+
+all product names:
+Backpack:
+Id:By.id("item_4_title_link")
+Css:By.cssSelector("#item_4_title_link")
+Xpath:By.xpath("//a[@data-test='item-4-title-link']")
+
+Bike light:
+Id:By.id("item_4_title_link")
+Css:By.cssSelector("#item_4_title_link")
+Xpath:By.xpath("//a[@data-test='item-4-title-link']")
+
+Bolt t-shirt:
+Id:By.id("item_1_title_link")
+By.cssSelector("#item_1_title_link")
+Xpath:By.xpath("//a[@data-test='item-1-title-link']")
+
+
+fleece jacket:
+Id:By.id("item_5_title_link")
+By.cssSelector("#item_5_title_link")
+Xpath:By.xpath("//a[@data-test='item-5-title-link']")
+
+
+onesie:
+Id:By.id("item_2_title_link")
+By.cssSelector("#item_2_title_link")
+Xpath:By.xpath("//a[@data-test='item-2-title-link']")
+
+
+t-shirt(red):
+Id:By.id("item_3_title_link")
+By.cssSelector("#item_3_title_link")
+Xpath:By.xpath("//a[@data-test='item-3-title-link']")
+
+
+add-to-cart buttons:
+Id:By.id("add-to-cart-sauce-labs-bike-light")
+Css:By.cssSelector("button[id='add-to-cart-sauce-labs-bike-light']")
+Xpath:By.xpath("//button[@id='add-to-cart-sauce-labs-bike-light']")
+
+cart icon:
+Css:By.cssSelector("a[class='shopping_cart_link']")
+Xpath:By.xpath("//a[@class='shopping_cart_link']")
+
+cart badge:
+Css:By.cssSelector("span[class='shopping_cart_badge']")
+Xpath:By.xpath("//span[@class='shopping_cart_badge']")

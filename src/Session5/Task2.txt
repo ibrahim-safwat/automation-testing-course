@@ -1,0 +1,15 @@
+target the 3rd column header:
+css: $('#Table1 thead th:nth-child(3)')
+
+select all rows in tbody:
+// we use $$ because we want to find all rows
+css: $$('#Table1 tbody tr')
+
+find the cell containing 'Smith':
+css: $('//td[text()='Smith']')
+
+select all even rows:
+// we use $$ because we want to find all even rows
+css: $$('#Table1 tbody tr:nth-child(even)')
+
+

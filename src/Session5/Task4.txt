@@ -1,0 +1,37 @@
+https://www.apple.com
+
+the first element with dynamic locator:
+//a[@area-label='Shopping Bag with item count : 2']
+
+the second element with dynamic locator:
+//img[@src='src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MKD44?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=ZWNlVGJ0cSt1TXVoKzFBei9OVjN4d2tuVHYzMERCZURia3c5SzJFOTlPaXpxbGVkTk9BZ1FBa1FxREVlOEVNWU9DRUFpLzRFSTNiNG1jZ3pBajIzR1E']
+
+the third element with dynamic locator:
+//
+
+What makes them dynamic?
+** Both of these xpath locators contain dynamic attributes like the cart icon count in 'area-label', the img link in the second locator,
+or the variable width in the select element
+** The main issue with these dynamic attributes is that they're valid as long as the attribute values remain unchanged.
+** Any change to the attribute values will invalidate the locator.
+
+A stable alternative locator strategy for each:
+** A more practical approach is to use a more defined or unique attribute.
+
+instead of this:
+//select[@style='width: 2.588235rem;']
+
+use this:
+//select[@data-autom='item-quantity-dropdown']
+
+instead of this:
+//a[@area-label='Shopping Bag with item count : 2']
+
+use this:
+//a[@aria-controls='globalnav-submenu-bag']
+
+instead of this:
+//img[contains(@src,mkdr44]
+
+use this:
+//img[@class='rf-pdp-inline-gallery-image']
